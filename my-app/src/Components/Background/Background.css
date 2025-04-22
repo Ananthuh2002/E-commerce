@@ -1,0 +1,62 @@
+.background{
+    height: 100vh;
+    width: 100%;
+    margin-top: -18px;
+}
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    animation: slideImages 20s linear infinite;
+  }
+  
+  .image-1 {
+    animation-delay: 0s;
+  }
+  
+  .image-2 {
+    animation-delay: 7s;
+  }
+  
+  .image-3 {
+    animation-delay: 15s;
+  }
+  .image-4 {
+    animation-delay: 20s;
+  }
+  
+  @keyframes slideImages {
+    0%, 100% {
+      opacity: 0;
+      transform: translateX(0%);
+    }
+    20% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    40% {
+      opacity: 1;
+      transform: translateX(-100%);
+    }
+    60% {
+      opacity: 1;
+      transform: translateX(-100%);
+    }
+    80% {
+      opacity: 0;
+      transform: translateX(-200%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-200%);
+    }
+  }

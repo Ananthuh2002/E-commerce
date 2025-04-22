@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 10px 10px rgb(255, 255, 255);
+
+}
+
+.nav_logo p{
+color: red;
+font-weight: bold;
+}
+
+
+
+.menu-list {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 101px;
+        height: 43px;
+        border: 2px solid #285dbf2e;
+        
+
+      a {
+        text-decoration: none;
+        color: #df1717;
+        font-size: 24px;
+        font-weight: 400px;
+        position: relative;
+        text-transform: uppercase;
+     }
+
+     &:hover, &:active 
+     {
+        font-weight: bold;
+        background-color: rgba(11, 60, 151, 0.555);
+        /* Add any other styles you want for the hover state */
+      }
+    }
+  }
+
+
+.login-btn {
+    color: rgb(104, 85, 224);
+     border: 2px solid rgba(104, 85, 224, 1);
+     height: 40px;
+     width: 70px;
+     border-radius: 20px;
+}
+
+button:active{
+    background-color: brown;
+}

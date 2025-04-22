@@ -1,0 +1,12 @@
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.popular-item{
+    display: flex;
+}
+.item-list img{
+    width: 258px
+}
+.old-price {
+    text-decoration: line-through;
+  }
+
+  .caption{
+    font-family: cursive;
+  }
+  .popular{
+    margin-left: 89px
+  }
+
+  .prices{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    padding-left: 28px;
+  }

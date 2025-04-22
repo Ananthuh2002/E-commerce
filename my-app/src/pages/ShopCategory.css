@@ -1,0 +1,12 @@
+.item-category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-list{
+    width: 31%; /* Adjust this value based on your preference */
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px; /* Add some margin to create space between rows */
+}
