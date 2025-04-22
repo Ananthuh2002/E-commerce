@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='nav_logo'>
-            <p>Shooper</p>
+            <h2 className='header-nav'>Shooper</h2>
         </div>
         <ul className='menu-list'>
             <li onClick={()=>{setmenu("shop")}}><Link style={{textDecoration:'none'}} to={"/"}>Shop</Link></li>

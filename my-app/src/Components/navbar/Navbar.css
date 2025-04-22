@@ -1,9 +1,14 @@
 .navbar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 16px;
-    box-shadow: 10px 10px rgb(255, 255, 255);
+    box-shadow:0 1px 10px;
 
+}
+
+.nav_logo{
+flex: 1;
 }
 
 .nav_logo p{
@@ -11,48 +16,63 @@ color: red;
 font-weight: bold;
 }
 
+.header-nav{
+  font-size: 50px;
+  color: #0707d9;
+  font-weight: bold;
+  -webkit-text-stroke: 2px #d5c1c1;
+}
 
 
 .menu-list {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none; /* Optional, but helps clean up list dots */
+  padding: 0;
+  margin: 0;
+}
 
-    li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 101px;
-        height: 43px;
-        border: 2px solid #285dbf2e;
-        
+.menu-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 101px;
+  height: 43px;
+}
 
-      a {
-        text-decoration: none;
-        color: #df1717;
-        font-size: 24px;
-        font-weight: 400px;
-        position: relative;
-        text-transform: uppercase;
-     }
+.menu-list li a {
+  text-decoration: none;
+  color: #df1717;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
 
-     &:hover, &:active 
-     {
-        font-weight: bold;
-        background-color: rgba(11, 60, 151, 0.555);
-        /* Add any other styles you want for the hover state */
-      }
-    }
-  }
+/* Hover state */
+.menu-list li:hover,
+.menu-list li:active {
+  font-weight: bold;
+  background-color: rgba(11, 60, 151, 0.555);
+  border-radius: 5px; /* Optional but looks cleaner */
+}
+
 
 
 .login-btn {
-    color: rgb(104, 85, 224);
-     border: 2px solid rgba(104, 85, 224, 1);
-     height: 40px;
-     width: 70px;
-     border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 200px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
 }
 
 button:active{
